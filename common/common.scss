@@ -1,0 +1,38 @@
+a[data-tag-name="tlp:red"],
+a[data-tag-name="tlp:green"],
+a[data-tag-name="tlp:amber"] {
+  padding: 0px 4px;
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a[data-tag-name="tlp:white"] {
+  padding: 0px 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a[data-tag-name="tlp:red"] {
+  background-color: #ff0033;
+}
+
+a[data-tag-name="tlp:green"] {
+  background-color: #33ff00;
+}
+
+a[data-tag-name="tlp:amber"] {
+  background-color: #ffc000;
+}
+
+tr.topic-list-item.tag-tlp\:red {
+  background-color: #ffe6e6;
+}
+
+tr.topic-list-item.tag-tlp\:green {
+  background-color: #e6ffe6;
+}
+
+tr.topic-list-item.tag-tlp\:amber {
+  background-color: #ffe599;
+}
